@@ -16,7 +16,7 @@ button.addEventListener('click', () => {
     let input = document.createElement('p');
     let img = document.createElement('img');
     input.setAttribute('contenteditable', 'true');
-    img.src = 'Assets/delete.png';
+    img.src = 'Assets/delete.webp';
     input.className = 'input-box';
     notesContainer.appendChild(input).appendChild(img);
     updateStorage(); // Update storage when new note is added
